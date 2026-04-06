@@ -28,16 +28,16 @@ def subtract(a, b):
 #  FEATURE 2
 
 def multiply(a, b):
-    # result = a * b
-    # log_action("multiply", result)
+    result = a * b
+    log_action("multiply", result)
     # return result
     pass
 
 def divide(a, b):
-    # if (b==0):
-    #     raise ValueError ("Cannot divide by Zero")
-    # result = a/b
-    # log_action("divide", result)
+    if (b==0):
+        raise ValueError ("Cannot divide by Zero")
+    result = a/b
+    log_action("divide", result)
     # return result
     pass
 
