@@ -30,7 +30,7 @@ def subtract(a, b):
 def multiply(a, b):
     result = a * b
     log_action("multiply", result)
-    # return result
+    return result
     pass
 
 def divide(a, b):
@@ -38,7 +38,7 @@ def divide(a, b):
         raise ValueError ("Cannot divide by Zero")
     result = a/b
     log_action("divide", result)
-    # return result
+    return result
     pass
 
 
